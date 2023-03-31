@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from googleapiclient.discovery import build
 
 # Build API access
-api_key = 'AIzaSyBiemIMP6HlOUJMU7dAOS5qzSFpt9uU6zQ'
+api_key = ''
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 
