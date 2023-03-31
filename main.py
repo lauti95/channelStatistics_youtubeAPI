@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from googleapiclient.discovery import build
 
-# Build API access
+# Build API access (YouTube Data API v3)
 api_key = ''
 youtube = build('youtube', 'v3', developerKey=api_key)
 
