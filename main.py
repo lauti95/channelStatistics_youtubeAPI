@@ -25,8 +25,8 @@ def get_channel_id(url):
         return "URL not found"
 
 
-# Execute the function assigning the desired URL to the "link" variable
-link = "https://www.youtube.com/@SupraPixel"
+# Assign any channel's URL to the "link" variable
+link = 'https://www.youtube.com/@SupraPixel'
 id_search = get_channel_id(link)
 print("ID found: " + id_search + "\n")
 
